@@ -70,4 +70,5 @@ document.addEventListener("DOMContentLoaded", () => {
             obstacleWarning.classList.add("hidden");
         }
     });
+
 });
