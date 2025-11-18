@@ -161,4 +161,5 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- INICIALIZACIÓN ---
     loadDemos(); // Carga inicial usando FETCH
     updateSequenceList();
+
 });
