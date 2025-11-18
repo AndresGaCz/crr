@@ -78,4 +78,5 @@ document.addEventListener("DOMContentLoaded", () => {
             socket.emit('cambiar_modo', { modo: 'AUTO' });
         });
     }
+
 });
