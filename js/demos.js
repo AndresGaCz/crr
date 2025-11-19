@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // IP PÚBLICA de tu servidor AWS
-    const API_URL = 'http://34.236.223.58:5000';
+    const API_URL = 'http://34.236.223.58:5500';
     const socket = io(API_URL); // Socket necesario para ejecutar demo
 
     // --- Elementos de "Demos" ---
@@ -163,3 +163,4 @@ document.addEventListener("DOMContentLoaded", () => {
     updateSequenceList();
 
 });
+
