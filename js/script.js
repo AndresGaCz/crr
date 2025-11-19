@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     // IP PÚBLICA de tu servidor AWS
-    const API_URL = 'http://34.236.223.58:5000'; 
+    const API_URL = 'http://34.236.223.58:5500'; 
     const socket = io(API_URL);
 
     const allButtons = document.querySelectorAll(".control-button");
@@ -72,3 +72,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
